@@ -1,9 +1,3 @@
-#fromRoman
-#Roman numbers only consist of letters: I, V, X, L, C, D, M.
-#For any string that has at least one different value than these, the method will throw a TypeError.
-#Strings that have the valid characters will be converted to their arabic equivalent.
-#Strings with lowercases are not allowed and raise TypeError again.
-
 def fromRoman(romanNumber)
     # Replace the following line with the actual code!
     romanValues = {
@@ -47,12 +41,6 @@ def fromRoman(romanNumber)
 
 end
 
-
-#toRoman 
-# There are only Roman numbers for the Arabic numbers of 1 to 3999.
-# For any number outside this range, the method will raise a RangeError.
-# Numbers fall inside the valid range will be converted to their roman equivalent.
-# Here are the requirements for fromRoman method which you will also understand from the test cases
 
 def toRoman(arabicNumber)
     # Replace the following line with the actual code!
